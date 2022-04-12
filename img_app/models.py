@@ -11,3 +11,4 @@ class Image(db.Model):
     id = db.Column(db.Integer, autoincrement=True, primary_key=True)
     big_image = db.Column(db.String(64), unique = True)
     small_image = db.Column(db.String(64), unique = True)
+    
